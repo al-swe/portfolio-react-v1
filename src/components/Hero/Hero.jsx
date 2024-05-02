@@ -15,7 +15,7 @@ export default function Hero() {
     <div id="hero" className="container">
       <div className="hero-text">
         <h5>Hello, I'm</h5>
-        <h1>Alan Sweeney</h1>
+        <h1>Alan</h1>
         <h5>Frontend Developer</h5>
         <div className="hero-btns">
           <button className="btn btn-blue-inverted">Download CV</button>
