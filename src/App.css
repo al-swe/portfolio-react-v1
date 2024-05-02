@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+:root {
+  --primary: #38bdf8;
+  --secondary: #818cf8;
+  --accent: #f471b5;
+  --neutral: #1e3353;
+  --accent-text: #14040c;
+  --text-light: #c8cbd0;
+  --text-dark: #010d15;
+  --bg-dark: #0f172a;
+  --success: #2dd4bf;
+  --warning: #f4bf50;
+  --error: #fb7085;
+  --dot-color: #1a2642;
+  --dot-size: 2px;
+  --dot-space: 22px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  font-family: "Poppins", sans-serif;
+
+  background: linear-gradient(
+        90deg,
+        var(--bg-dark) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    linear-gradient(
+        var(--bg-dark) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    var(--dot-color);
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.container:not(:last-of-type) {
+  margin-bottom: 3rem;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: ease 0.5s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 50%;
+}
+
+.btn-blue {
+  color: var(--bg-dark);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn-blue-inverted {
+  color: var(--primary);
+  background-color: var(--bg-dark);
+  border: 1px solid var(--primary);
+}
+
+@media (max-width: 767px) {
+    .container {
+    width: 100%;
+    padding: 0.5rem;
+    margin: auto;
   }
 }

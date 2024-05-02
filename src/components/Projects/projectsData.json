@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Munamii",
+    "tech": "HTML / CSS / JavaScript",
+    "imgUrl": "https://raw.githubusercontent.com/al-swe/munamii/main/image.png",
+    "link1": "https://github.com/al-swe/munamii"
+  },
+  {
+    "title": "ToDoLy Console",
+    "tech": "C#",
+    "imgUrl": "https://raw.githubusercontent.com/al-swe/munamii/main/todolly2.png",
+    "link1": "https://github.com/al-swe/IndProject-v3"
+  },
+  {
+    "title": "Currency Excange",
+    "tech": "HTML / CSS / JavaScript / API",
+    "imgUrl": "https://raw.githubusercontent.com/al-swe/currencyExchange/main/screenshot.png",
+    "link1": "https://github.com/al-swe/currencyExchange"
+  },
+  {
+    "title": "Prism",
+    "tech": "HTML / CSS / JavaScript",
+    "imgUrl": "https://raw.githubusercontent.com/al-swe/munamii/main/soc.png",
+    "link1": "https://github.com/al-swe/todo"
+  },
+  {
+    "title": "Stellar",
+    "tech": "HTML / CSS / Boostrap / JavaScript",
+    "imgUrl": "https://www.alansweeney.se/assets/img/mockups/stellar/info-img/key-feature.webp",
+    "link1": "https://github.com/al-swe/cv-miniproject-w16"
+  },
+  {
+    "title": "CoinMeter",
+    "tech": "HTML / CSS / JavaScript",
+    "imgUrl": "https://www.alansweeney.se/assets/img/mockups/coin/info-img/key-feature.webp",
+    "link1": "https://github.com/al-swe/munamii"
+  }
+]
