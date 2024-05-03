@@ -24,12 +24,6 @@ export default function Projects() {
               >
                 GitHub
               </button>
-              {/* <button
-                onClick={() => openLink(project.link2)}
-                className="btn btn-blue"
-              >
-                Live Demo
-              </button> */}
             </div>
           </div>
         ))}
