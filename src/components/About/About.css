@@ -63,4 +63,8 @@
   .about-left {
     margin-bottom: 1.5rem;
   }
+
+  .about-lists h1 {
+    display: none;
+  }
 }
